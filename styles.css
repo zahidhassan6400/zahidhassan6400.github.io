@@ -437,7 +437,7 @@ h1 span {
   color: white;
 }
 
-.portrait-card::after {
+border-left: none;
   position: absolute;
   z-index: -1;
   right: -16px;
