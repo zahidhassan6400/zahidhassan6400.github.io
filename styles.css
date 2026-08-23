@@ -437,16 +437,16 @@ h1 span {
   color: white;
 }
 
-border-left: none;
+.portrait-card::after {
   position: absolute;
   z-index: -1;
   right: -16px;
   bottom: -16px;
   width: 72%;
-  height: 10%;
+  height: 72%;
   border: 0;
-border-right: 1px solid rgba(8, 126, 139, 0.48);
-border-bottom: 1px solid rgba(8, 126, 139, 0.48);
+  border-right: 1px solid rgba(8, 126, 139, 0.48);
+  border-bottom: 1px solid rgba(8, 126, 139, 0.48);
   content: "";
 }
 
